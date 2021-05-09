@@ -13,4 +13,15 @@ public class WhenManagingCustomers {
 
         assertThat(customers).isEmpty();
     }
+
+    @Test
+    public void should_add_a_new_customer() {
+        CustomerService.add_customer("example@email.com", "Bob", "Nobody");
+
+        Customer customer = CustomerService.getCustomer("example@email.com");
+
+        assertThat(customer).hasFieldOrPropertyWithValue("firstName", "Bob")
+                .hasFieldOrPropertyWithValue("lastName", "Nobody")
+                .hasFieldOrPropertyWithValue("email", "example@email.com");
+    }
 }
