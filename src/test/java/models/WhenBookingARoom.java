@@ -7,7 +7,7 @@ public class WhenBookingARoom {
 
     @Test
     public void should_report_room_price() {
-        Room room = new Room();
+        Room room = new Room(225.0);
 
         double price = room.getRoomPrice();
 
