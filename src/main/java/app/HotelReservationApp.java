@@ -8,5 +8,6 @@ public class HotelReservationApp {
         System.out.println("3. Create an account");
         System.out.println("4. Admin");
         System.out.println("5. Exit");
+        System.out.println("Please select a number for the menu option");
     }
 }

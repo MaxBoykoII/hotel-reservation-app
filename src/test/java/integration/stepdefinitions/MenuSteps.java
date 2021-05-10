@@ -43,6 +43,7 @@ public class MenuSteps {
     @Then("Rusty will be prompted to select a menu option")
     public void rusty_will_be_prompted_to_select_a_menu_option() {
         // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+       assertThat(bytes.toString())
+               .contains("Please select a number for the menu option");
     }
 }
