@@ -14,5 +14,6 @@ public class HotelReservationApp {
         System.out.println("5. Exit");
         System.out.println(repeat("_", 50));
         System.out.println("Please select a number for the menu option");
+        System.out.println(repeat("_", 50));
     }
 }
