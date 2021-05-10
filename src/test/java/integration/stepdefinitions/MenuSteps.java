@@ -18,7 +18,7 @@ public class MenuSteps {
         PrintStream console = System.out;
 
         System.setOut(new PrintStream(bytes));
-        HotelReservationApp.main();
+        HotelReservationApp.main(null);
 
         System.setOut(console);
     }
