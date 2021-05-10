@@ -1,4 +1,4 @@
-package models;
+package unit.models;
 
 import org.junit.Before;
 import org.junit.Test;

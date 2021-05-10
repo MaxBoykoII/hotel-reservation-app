@@ -1,6 +1,6 @@
-package services;
+package unit.services;
 
-import models.Customer;
+import unit.models.Customer;
 import org.junit.Before;
 import org.junit.Test;
 
