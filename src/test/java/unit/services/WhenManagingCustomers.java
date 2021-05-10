@@ -1,8 +1,9 @@
 package unit.services;
 
-import unit.models.Customer;
+import models.Customer;
 import org.junit.Before;
 import org.junit.Test;
+import services.CustomerService;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

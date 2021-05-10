@@ -1,6 +1,6 @@
-package unit.services;
+package services;
 
-import unit.models.Customer;
+import models.Customer;
 
 import java.util.ArrayList;
 import java.util.Collection;
